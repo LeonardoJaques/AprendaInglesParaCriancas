@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.jaques.projetos.aprendaingles.fragment.BichosFragment
+import com.jaques.projetos.aprendaingles.fragment.ConsoantesFragment
 import com.jaques.projetos.aprendaingles.fragment.NumerosFragment
 import com.jaques.projetos.aprendaingles.fragment.VogaisFragment
 import com.ogaclejapan.smarttablayout.SmartTabLayout
@@ -33,6 +34,8 @@ class MainActivity : AppCompatActivity() {
                 .add("Bichos",BichosFragment::class.java)
                 .add("Números", NumerosFragment::class.java)
                 .add("Vogais",VogaisFragment::class.java)
+                .add("Consoantes",ConsoantesFragment::class.java)
+
                 .create())
 
         viewPager = viewPager_ as ViewPager

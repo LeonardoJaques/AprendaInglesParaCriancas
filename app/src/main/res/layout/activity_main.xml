@@ -32,7 +32,7 @@
         app:stl_underlineThickness="1dp"
         app:stl_defaultTabBackground="?attr/selectableItemBackground"
         app:stl_defaultTabTextAllCaps="true"
-        app:stl_defaultTabTextSize="12sp"
+        app:stl_defaultTabTextSize="11sp"
         app:stl_defaultTabTextHorizontalPadding="16dp"
         app:stl_defaultTabTextMinWidth="0dp"
         app:stl_clickable="true"

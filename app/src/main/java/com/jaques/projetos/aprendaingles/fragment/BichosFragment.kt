@@ -2,19 +2,13 @@ package com.jaques.projetos.aprendaingles.fragment
 
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageButton
-import android.widget.ImageView
 
 import com.jaques.projetos.aprendaingles.R
-import kotlinx.android.synthetic.main.fragment_bichos.*
-import kotlinx.android.synthetic.main.fragment_bichos.view.*
-import kotlinx.android.synthetic.main.fragment_bichos.view.imageButton_cao as imageButton_cao1
 
 /**
  * A simple [Fragment] subclass.
@@ -37,7 +31,7 @@ class BichosFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_bichos, container, false)
 
-        buttonCao = view.findViewById(R.id.imageButton_cao)
+        buttonCao = view.findViewById(R.id.imageButton_a)
         buttonGato = view.findViewById(R.id.imageButton_gato)
         buttonLeao = view.findViewById(R.id.imageButton_leao)
         buttonMacaco = view.findViewById(R.id.imageButton_macaco)
@@ -56,7 +50,7 @@ class BichosFragment : Fragment() {
 
     val listener = View.OnClickListener { v ->
         when (v.id) {
-            R.id.imageButton_cao -> {
+            R.id.imageButton_a -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.dog)
                 tocarSom()
             }

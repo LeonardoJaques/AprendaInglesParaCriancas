@@ -8,7 +8,7 @@
     tools:context=".fragment.BichosFragment">
 
     <ImageButton
-        android:id="@+id/imageButton_cao"
+        android:id="@+id/imageButton_a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -38,7 +38,7 @@
         android:src="@drawable/leao"
         app:layout_constraintBottom_toTopOf="@+id/imageButton_ovelha"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton_cao" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_a" />
 
     <ImageButton
         android:id="@+id/imageButton_macaco"
