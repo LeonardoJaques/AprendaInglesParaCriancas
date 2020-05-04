@@ -11,7 +11,7 @@
   <li> Migrar do Código Java para Kotlin</li>
   <li> Pesquisar de novas fontes de Recursos de Imagens e Sons</li>
    
-   <ul> Refazer a parte de números
+   <ul> <b>Refazer a parte de números</b>
       <li> Baixei novas imagens de números que fossem até a contagem de 10</li>
       <li> Ajuste de formatos compativeis a plataforma androdi através do ADOBE ILLUSTRATOR</li>
       <li> Inserir a contagem até o número 10</li>
