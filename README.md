@@ -10,7 +10,7 @@ Horas de projeto: 10h
 
 Ações realizadas: 
   - Migração do Código Java para Kotlin
-  - Pesquisa de novas fontes de Recursos de Imagens e Sons
+  - Pesquisar de novas fontes de Recursos de Imagens e Sons
   - Refazer a parte de números
       * Baixei novas imagens de números que fossem até a contagem de 10
       * Ajustei em formatos compativeis a plataforma androdi através do ADOBE ILLUSTRATOR
