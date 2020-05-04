@@ -9,7 +9,7 @@ Horas de projeto: 10h
  • Adobe Illustrator
 
 Ações realizadas: 
-  - Migração do Código Java para Kotlin
+  - Migrar do Código Java para Kotlin
   - Pesquisar de novas fontes de Recursos de Imagens e Sons
   - Refazer a parte de números
       * Baixei novas imagens de números que fossem até a contagem de 10
