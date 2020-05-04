@@ -2,7 +2,7 @@
 
 ## O projeto foi inspirado num curso de Java para Android
 
-<b>Horas de projeto:<b> 10h
+<b>Horas de projeto:</b> 10h
  - Kotlin
  - Android Studio
  - Adobe Illustrator
