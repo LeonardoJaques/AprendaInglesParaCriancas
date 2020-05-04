@@ -4,9 +4,9 @@
 
 - Horas de projeto: 10h
  
- -- Kotlin
- -- Android Studio
- -- Adobe Illustrator
+ - Kotlin
+ - Android Studio
+ - Adobe Illustrator
 
 Ações realizadas: 
   - Migrar do Código Java para Kotlin
