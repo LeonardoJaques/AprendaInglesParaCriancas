@@ -14,7 +14,8 @@
    <li> Baixei novas imagens de números que fossem até a contagem de 10</li>
    <li> Ajuste de formatos compativeis a plataforma androdi através do ADOBE ILLUSTRATOR</li>
    <li> Inserir a contagem até o número 10</li></ul>
-  - Criar duas novas Abas Vogais e Consoantes
+  
+  Criar duas novas Abas Vogais e Consoantes
          <ul><b>Usando a biblioteca oficial do Google no Gradle:</b>
        <ul>
            <li> implementation: 'com.ogaclejapan.smarttablayout:library:2.0.0@aar' </li>
