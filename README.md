@@ -17,7 +17,7 @@ Ações realizadas:
       * Inseri a contagem até o número 10
   - Criar duas novas Abas Vogais e Consoantes
       * Usando a biblioteca oficial do Google no Gradle
-        • implementation 'com.ogaclejapan.smarttablayout:library:2.0.0@aar'
-        • implementation 'com.ogaclejapan.smarttablayout:utils-v4:2.0.0@aar'
+         > implementation 'com.ogaclejapan.smarttablayout:library:2.0.0@aar'
+         > implementation 'com.ogaclejapan.smarttablayout:utils-v4:2.0.0@aar'
          
         
