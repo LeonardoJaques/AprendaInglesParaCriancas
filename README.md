@@ -13,7 +13,7 @@
    
    <ul> <li> Refazer a parte de números</li>
       <ul> 
-        <li> Baixei novas imagens de números que fossem até a contagem de 10</li>
+        <li> Baixei novas imagens de números que fossem 0 até a contagem de 10</li>
         <li> Ajuste de formatos compativeis a plataforma androdi através do ADOBE ILLUSTRATOR</li>
         <li> Inserir a contagem até o número 10</li>
       </ul>
