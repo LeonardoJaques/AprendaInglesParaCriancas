@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
+import android.widget.Toast
 
 import com.jaques.projetos.aprendaingles.R
 
@@ -52,26 +53,34 @@ class BichosFragment : Fragment() {
         when (v.id) {
             R.id.imageButton_a -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.dog)
+                Toast.makeText(context ,"PRONUNCIATION OF DOG" , Toast.LENGTH_SHORT).show()
+
                 tocarSom()
             }
             R.id.imageButton_gato -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.cat)
+                Toast.makeText(context ,"PRONUNCIATION OF CAT" ,Toast.LENGTH_SHORT).show()
+
                 tocarSom()
             }
             R.id.imageButton_leao -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.lion)
+                Toast.makeText(context ,"PRONUNCIATION OF LION" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
             R.id.imageButton_macaco -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.monkey)
+                Toast.makeText(context ,"PRONUNCIATION OF MONKEY" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
             R.id.imageButton_ovelha -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.sheep)
+                Toast.makeText(context ,"PRONUNCIATION OF SHEEP" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
             R.id.imageButton_vaca -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.cow)
+                Toast.makeText(context ,"PRONUNCIATION OF COW" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
         }

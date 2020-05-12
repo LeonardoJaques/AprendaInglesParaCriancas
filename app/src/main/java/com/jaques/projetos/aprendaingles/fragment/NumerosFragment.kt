@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.Toast
 
 import com.jaques.projetos.aprendaingles.R
 
@@ -69,56 +70,67 @@ class NumerosFragment : Fragment() {
         when (v.id) {
             R.id.imageButton_zero -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_0)
+                Toast.makeText(context ,"PRONUNCIATION OF ZERO" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
 
             R.id.imageButton_um -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_1)
+                Toast.makeText(context ,"PRONUNCIATION OF ONE" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
 
             R.id.imageButton_dois -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_2)
+                Toast.makeText(context ,"PRONUNCIATION OF TWO" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
 
             R.id.imageButton_tres -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_3)
+                Toast.makeText(context ,"PRONUNCIATION OF TREE" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
 
             R.id.imageButton_quatro -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_4)
+                Toast.makeText(context ,"PRONUNCIATION OF FOUR" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
 
             R.id.imageButton_cinco -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_5)
+                Toast.makeText(context ,"PRONUNCIATION OF FIVE" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
 
             R.id.imageButton_seis -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_6)
+                Toast.makeText(context ,"PRONUNCIATION OF SIX" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
 
             R.id.imageButton_sete -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_7)
+                Toast.makeText(context ,"PRONUNCIATION OF SEVEN" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
 
             R.id.imageButton_oito -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_8)
+                Toast.makeText(context ,"PRONUNCIATION OF EIGHT" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
 
             R.id.imageButton_nove -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_9)
+                Toast.makeText(context ,"PRONUNCIATION OF NINE" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
 
             R.id.imageButton_dez -> {
                 mediaPlayer = MediaPlayer.create(activity, R.raw.pronuncia_10)
+                Toast.makeText(context ,"PRONUNCIATION OF TEN" ,Toast.LENGTH_SHORT).show()
                 tocarSom()
             }
         }
@@ -135,4 +147,4 @@ class NumerosFragment : Fragment() {
         super.onDestroy()
         mediaPlayer.release()
     }
-}
+    }

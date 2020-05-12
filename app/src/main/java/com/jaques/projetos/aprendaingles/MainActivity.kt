@@ -35,8 +35,7 @@ class MainActivity : AppCompatActivity() {
                 .add("Números", NumerosFragment::class.java)
                 .add("Vogais",VogaisFragment::class.java)
                 .add("Consoantes",ConsoantesFragment::class.java)
-
-                .create())
+                .`create`())
 
         viewPager = viewPager_ as ViewPager
         viewPager.adapter = adapter
